@@ -10,6 +10,4 @@ COPY main.py .
 
 COPY responses.py .
 
-USER root
-
 CMD ["python", "main.py"]
