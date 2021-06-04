@@ -34,7 +34,7 @@ def main():
     updater.start_webhook(listen="0.0.0.0",
                        port=int(PORT),
                        url_path=TOKEN,
-                       webhook_url='https://64a4d0e93f71.ngrok.io/' + TOKEN)
+                       webhook_url='https://isitdown-telegram-bot.herokuapp.com/' + TOKEN)
 
     updater.idle()
 
